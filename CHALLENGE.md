@@ -8,7 +8,7 @@ Note - we can use a hash table to map the sorted version of a word to a list of 
 
 example:
 ```javascript
-sortAnagrams('race cat') =>
+sortAnagrams('acre race care act cat tac') =>
 
 {
   acre : {acre, race, care},
