@@ -34,10 +34,12 @@ If the user double clicks on the notes content it should switch to the Edit View
 Your components should be nested in the following layout
 ```
 App
-  NoteCreateForm
-  NoteList
-    NoteItem
-      NoteUpdateForm
+  Landing
+  Dashboard
+   NoteCreateForm
+   NoteList
+     NoteItem
+       NoteUpdateForm
 ```
 
 #### Test
