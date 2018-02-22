@@ -8,10 +8,15 @@ Note - we can use a hash table to map the sorted version of a word to a list of 
 
 example:
 ```javascript
-acre : {acre, race, care}
+sortAnagrams('race cat') =>
+
+{
+  acre : {acre, race, care},
+  act: {act, cat, tac},
+}
 ```
 
-Once all the words have been grouped into lists by anagram we can put them back into the array. 
+Once all the words have been grouped into lists by anagram we can put them back into the array.
 
 Write at least four tests for this function
 * your tests should cover basic (*expected*) functionality
